@@ -15,3 +15,7 @@ Line and parabole
 - Regression 
 - Phân loại hoa
 - Phân loại ảnh 
+
+
+## 1. KMeans
+- K là hệ số (ứng với số tập được chia) 
