@@ -144,7 +144,7 @@ while running:
 				try:
 					kmeans = KMeans(n_clusters=K, random_state=0).fit(points)
 					labels=kmeans.labels_
-					clusters=[kmeans.cluster_centers_[0]+50,kmeans.cluster_centers_[1] +50]
+					clusters=kmeans.cluster_centers_ + 50
 				except:
 					print("error")
 
